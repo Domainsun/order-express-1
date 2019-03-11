@@ -32,7 +32,7 @@ public class AboutActivity extends ToolBarActivity {
     }
 
     @OnClick(R.id.tv_activity_about_licenses)
-    public void onClick() {//1111
+    public void onClick() {//111122
         DialogUtil.showAlertDialogText(AboutActivity.this, "License", ResourceUtil.getString(R.string.license));
     }
 }
